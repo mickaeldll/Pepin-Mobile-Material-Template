@@ -2,9 +2,9 @@
 
 Pepin material HTML Mobile and Tablet Template.
 
-[Download on Github](https://github.com/mickaeldll/Platon-Mobile-Template/archive/master.zip)
+[Download on Github](https://github.com/mickaeldll/Pepin-Material-Template/archive/master.zip)
 
-[Demo](http://mickaelguillaume.esy.es/Lucio/index.html)
+[Demo](http://mickaelguillaume.esy.es/Pepin/index.html)
 
 ## License
 
