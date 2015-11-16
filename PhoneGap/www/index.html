@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Pepin</title>
+    <link rel="stylesheet" href="css/framework7.material.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.css">
+    <link rel="stylesheet" href="css/default-style.css">
+    <link rel="stylesheet" href="css/my-app.css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/icon.png">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+</head>
+
+<body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-cover">
+        <div class="list-block">
+            <ul class="menu">
+                <header>
+                    <img class="responsive" src="img/profile.jpg" />
+                </header>
+                <li>
+                    <a href="profile.html" class="item-link item-content">
+                        <div class="item-media"><i class="material-icons menu">person</i></div>
+                        <div class="item-inner menu">
+                            <div class="item-title menu">Profile</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="notifications.html" class="item-link item-content">
+                        <div class="item-media"><i class="material-icons menu">notifications</i></div>
+                        <div class="item-inner menu">
+                            <div class="item-title menu">Notifications</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="setting.html" class="item-link item-content">
+                        <div class="item-media"><i class="material-icons menu">settings</i></div>
+                        <div class="item-inner menu">
+                            <div class="item-title menu">Settings</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html" class="item-link item-content">
+                        <div class="item-media"><i class="material-icons menu">power_settings_new</i></div>
+                        <div class="item-inner menu">
+                            <div class="item-title menu">Sign out</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="views">
+        <div class="view view-main">
+            <div class="pages navbar-fixed">
+                <div data-page="index" class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="left"><a href="#" class="open-panel link icon-only"><i class="material-icons">menu</i></a></div>
+                            <div class="center">Home</div>
+                            <div class="right">
+                                <a href="" class="link icon-only"><i class="material-icons">search</i></a>
+                                <a href="" data-popover=".popover-more-home" class="link icon-only open-popover"><i class="material-icons">more_vert</i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content home">
+
+                        <article>
+                            <div class="card ks-card-header-pic">
+                                <a href="article.html" style="background-image:url(img/article.jpg);width:100%;margin: 0 auto;" valign="bottom" class="card-header color-white no-border">
+                                    <div class="opacity-container">
+                                        <div class="article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                                    </div>
+                                </a>
+                                <div class="card-footer">
+                                    <div class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis aliquet gravida. Phasellus vehicula, est et imperdiet tempor, turpis quam posuere quam, ac aliquam turpis elit sit amet justo. Vivamus ultricies tempor lacinia. Integer placerat pellentesque sapien, eget malesuada erat.</div>
+                                </div>
+                                <div class="card-footer">
+                                    <img width="30" height="30" style="border-radius:100%" src="https://randomuser.me/api/portraits/med/men/66.jpg" />
+                                    <a href="profile.html" class="link author">Joshua Steward</a>
+                                    <div class="icon-social"><a href="#" class="link icon-only"><i class="material-icons fav">favorite</i></a></div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class="card ks-card-header-pic">
+                                <a href="article2.html" style="background-image:url(img/article2.jpg);width:100%;margin: 0 auto;" valign="bottom" class="card-header color-white no-border">
+                                    <div class="opacity-container">
+                                        <div class="article-title">Sed ut lectus id dui fermentum rutrum vitae vitae est</div>
+                                    </div>
+                                </a>
+                                <div class="card-footer">
+                                    <div class="intro">Etiam dignissim bibendum erat tincidunt condimentum. Pellentesque ullamcorper eros nulla, vel accumsan sapien porttitor vel.Cras imperdiet neque et odio volutpat auctor. In hac habitasse platea dictumst. Cras enim arcu, eleifend quis condimentum sit amet, euismod et magna.</div>
+                                </div>
+                                <div class="card-footer">
+                                    <img width="30" height="30" style="border-radius:100%" src="https://randomuser.me/api/portraits/med/women/74.jpg" />
+                                    <div class="author-name">Veronica Rodriquez</div>
+                                    <div class="icon-social"><a href="#" class="link icon-only"><i class="material-icons fav">favorite</i></a></div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class="card ks-card-header-pic">
+                                <a href="article3.html" style="background-image:url(img/article3.jpg);width:100%;margin: 0 auto;" valign="bottom" class="card-header color-white no-border">
+                                    <div class="opacity-container">
+                                        <div class="article-title">Nullam euismod erat eu nisi varius, vitae efficitur metus tincidunt</div>
+                                    </div>
+                                </a>
+                                <div class="card-footer">
+                                    <div class="intro">Suspendisse volutpat condimentum pharetra. Morbi sed mauris eget nunc vestibulum blandit. Maecenas eu fermentum arcu. Donec molestie ornare tortor vitae iaculis. Nam egestas neque eget dapibus vehicula. Fusce non dolor nunc. Phasellus sit amet pulvinar dui.</div>
+                                </div>
+                                <div class="card-footer">
+                                    <img width="30" height="30" style="border-radius:100%" src="https://randomuser.me/api/portraits/med/women/71.jpg" />
+                                    <div class="author-name">Mia Kelly</div>
+                                    <div class="icon-social"><a href="#" class="link icon-only"><i class="material-icons fav">favorite</i></a></div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class="card ks-card-header-pic">
+                                <a href="article4.html" style="background-image:url(img/article4.jpg);width:100%;margin: 0 auto;" valign="bottom" class="card-header color-white no-border">
+                                    <div class="opacity-container">
+                                        <div class="article-title">Nullam vitae dolor et felis pulvinar laoreet nec quis augue</div>
+                                    </div>
+                                </a>
+                                <div class="card-footer">
+                                    <div class="intro">Suspendisse vitae dolor nibh. Sed consequat nisi diam, at vestibulum purus accumsan efficitur. Vestibulum eget ultrices purus, a pellentesque nibh. Donec accumsan erat sed interdum pretium. Cras vitae ipsum tempor massa mattis mattis. Curabitur luctus massa non metus laoreet scelerisque.</div>
+                                </div>
+                                <div class="card-footer">
+                                    <img width="30" height="30" style="border-radius:100%" src="https://randomuser.me/api/portraits/med/women/0.jpg" />
+                                    <div class="author-name">Deann Perez</div>
+                                    <div class="icon-social"><a href="#" class="link icon-only"><i class="material-icons fav">favorite</i></a></div>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup-write">
+        <div class="view navbar-fixed">
+            <div class="pages">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="left">
+                                <a href="#" class="link icon-only close-popup"><i class="material-icons">arrow_back</i></a> Write comment
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="floating-button color-yellow close-popup">
+                        <i class="material-icons">send</i>
+                    </a>
+                    <div class="page-content">
+                        <div class="content-block">
+                            <div class="list-block">
+                                <ul class="write">
+                                    <li class="align-top">
+                                        <div class="item-content">
+                                            <div class="item-inner">
+                                                <div class="item-input">
+                                                    <textarea></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popover popover-more">
+        <div class="popover-angle"></div>
+        <div class="popover-inner">
+            <div class="list-block">
+                <ul>
+                    <li><a href="profile.html" class="list-button item-link more">Articles</a></li>
+                    <li><a href="photos.html" class="list-button item-link more">Photos</a></li>
+                    <li><a href="videos.html" class="list-button item-link more">Videos</a></li>
+                    <li><a href="musiques.html" class="list-button item-link more">Musiques</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="popover popover-more-home">
+        <div class="popover-angle"></div>
+        <div class="popover-inner">
+            <div class="list-block">
+                <ul>
+                    <li><a href="index.html" class="list-button item-link home">Home style</a></li>
+                    <li><a href="index2.html" class="list-button item-link home">Home style 2</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/framework7.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <!-- PhoneGap -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+
+</body>
+
+</html>

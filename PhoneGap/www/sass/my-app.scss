@@ -1,0 +1,301 @@
+@import "compass";
+
+/*
+===============================================
+
+[Main stylesheet my-app.css]
+
+Author:	        Guillaume Mickael
+Version:	    1.0
+Created:	    06.11.2015
+Last updated:	16.11.2015
+Template:	    Pepin - Mobile and Tablet Template
+
+=================================================
+*/
+
+$color_theme: #ffc107;
+$text_color: #9e9e9e;
+@include font-face("Material Icons", font-files("https://rawgit.com/google/material-design-icons/master/iconfont/MaterialIcons-Regular.woff2","https://rawgit.com/google/material-design-icons/master/iconfont/MaterialIcons-Regular.woff","https://rawgit.com/google/material-design-icons/master/iconfont/MaterialIcons-Regular.ttf" ));
+
+/*
+===============================================
+
+GENERAL
+
+=================================================
+*/
+.statusbar-overlay {
+    background: #e5af29;
+}
+
+p {
+    color: $text_color;
+}
+
+img.responsive-card {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px
+}
+
+img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: white;
+}
+
+.navbar {
+    background-color: $color_theme;
+}
+
+.floating-button.color-yellow {
+    color: #fff;
+    background: $color_theme;
+}
+
+.list-block .item-text {
+    color: $text_color;
+    max-height: 100%;
+    display: block;
+    padding: 10px 0px 10px 0px;
+}
+
+.list-block .item-title {
+    color: #212121;
+    font-weight: 500;
+}
+
+.list-block .item-subtitle {
+    color: $text_color;
+    font-weight: 500;
+}
+
+.list-block {
+    margin: 0;
+}
+
+.list-block textarea {
+    height: 1000px;
+}
+
+.item-input-field:after,
+ul.write:before {
+    display: none;
+}
+
+textarea,
+input {
+    color: $text_color!important;
+}
+
+.left {
+    font-weight: 500;
+}
+
+div[class*="col-"] {
+    text-align: center;
+}
+
+.list-block .item-link.list-button {
+    font-size: 14px;
+}
+
+.list-block .focus-state .label {
+    color: $color_theme;
+}
+
+.label-switch input[type="checkbox"]:checked + .checkbox,
+.label-switch input[type="checkbox"]:checked + .checkbox:after {
+    background: $color_theme;
+}
+
+.login-screen-content .login-screen-title {
+    margin: 0;
+}
+
+.button {
+    color: white;
+    font-weight: 500;
+    background-color: $color_theme;
+}
+
+
+/*
+===============================================
+
+ARTICLE
+
+=================================================
+*/
+
+.page-content.article {
+    padding-top: 0;
+}
+
+.page-content.home {
+    background-color: #f2f2f2;
+}
+
+.card-header {
+    font-size: 14px;
+}
+
+.card-footer {
+    justify-content: initial;
+    -webkit-justify-content: initial;
+}
+
+.card-header a.link,
+.card-footer a.link {
+    color: $text_color;
+}
+
+.opacity-container {
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, .5));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .5));
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.article-title,
+.profile-info {
+    padding: 0px 16px;
+    margin: 1em 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.intro {
+    color: $text_color;
+    padding: 12px 0px;
+}
+
+a.link.author,
+.author-name {
+    color: #212121;
+    font-weight: 500;
+    margin-left: 5px;
+    text-transform: none;
+    padding: 0 8px;
+}
+
+.article-header,
+.profile-header {
+    max-width: 100%;
+    height: auto;
+    margin-top: -56px;
+}
+
+.navbar.article {
+    background-color: rgba(255, 193, 7, 0);
+}
+
+.header-container {
+    position: relative;
+}
+
+
+/*
+===============================================
+
+ICONS
+
+=================================================
+*/
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.color-change {
+    color: #f44336!important;
+}
+
+.icon-social {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+}
+
+.icon-social-fav {
+    position: absolute;
+    left: 0;
+}
+
+i.material-icons.fav {
+    color: #9e9e9e;
+}
+
+i.material-icons.fav.red {
+    color: #f44336;
+}
+
+i.material-icons.add {
+    color: #55ACEE;
+}
+
+i.material-icons.done {
+    color: #4caf50;
+}
+
+
+/*
+===============================================
+
+PROFILE
+
+=================================================
+*/
+
+.col-33.info {
+    font-weight: 300;
+}
+
+.col-33.stats {
+    font-size: 18px;
+}
+
+
+/*
+===============================================
+
+FOLLOWING - FOLLOWERS
+
+=================================================
+*/
+
+.list-block .item-title.followers,
+.list-block .item-title.following {
+    color: #212121;
+    font-weight: 500;
+}
