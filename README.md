@@ -1,4 +1,4 @@
-# Lucio Mobile Template
+# Pepin Mobile Template
 
 Pepin material HTML Mobile and Tablet Template.
 
