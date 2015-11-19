@@ -1,8 +1,6 @@
 # Pepin Mobile Template
 
-Pepin material HTML Mobile and Tablet Template.
-
-[Download on Github](https://github.com/mickaeldll/Pepin-Material-Template/archive/master.zip)
+Pepin material HTML Mobile Template.
 
 [Demo](http://mickaelguillaume.esy.es/Pepin/index.html)
 
